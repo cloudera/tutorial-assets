@@ -6,6 +6,6 @@ We will be looking at a synthetic data set for a mock company that has various h
 
 # Video: [Overview](https://bcove.video/3kTAkCC)
 
-# Tutorial: [Step-by-Step Walk Through](https://www.cloudera.com/tutorials/data-exploration-and-reporting-with-cdw.html)
+# Tutorial: [Step-by-Step Walk Through](https://www.cloudera.com/tutorials/data-exploration-and-reporting-with-cdw.html?utm_source=mktg-community&utm_medium=github)
 
 # Meetup (recording): [Demo](https://www.youtube.com/watch?v=0w7s5gjtOz0&ab_channel=Cloudera%2CInc.)
