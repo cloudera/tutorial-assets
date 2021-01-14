@@ -8,26 +8,4 @@ We will be looking at a synthetic data set for a mock company that has various h
 
 # Tutorial: [Step-by-Step Walk Through](https://www.cloudera.com/tutorials/data-exploration-and-reporting-with-cdw.html)
 
-# Meetup: [Live Demo](https://www.meetup.com/futureofdata-nova/events/274702924/)
-
-# Assets
-
-* Datasets
-    * daily_employee_logs_export.csv
-    * employee_metadata_export.csv
-    * employee_sicktime_export.csv
-    * employee_vacation_export.csv
-    * factory_ambient_export.csv
-    * factory_revenue_export.csv
-    * machine_throughput_export.csv
-    * machine_uptime_export.csv
-
-* PySpark Job(s)
-    * ingest_CDE.py
-
-* SQL - DDL / DML / Queries
-    * meetup_queries.sql
-
-* Utilities
-    * data_generator.py
-    * util.py
+# Meetup (recording): [Demo](https://www.youtube.com/watch?v=0w7s5gjtOz0&ab_channel=Cloudera%2CInc.)
