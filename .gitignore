@@ -1,0 +1,6 @@
+# Common files that contributors' machines may attempt to commit
+*.DS_Store
+*.idea
+*.vscode
+Thumbs.db
+__pycache__/
