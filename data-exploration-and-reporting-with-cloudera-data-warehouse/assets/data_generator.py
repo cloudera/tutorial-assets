@@ -1,15 +1,46 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Oct 22 12:59:49 2020
-
-This is going to generate the data we're going to use as mock factory and
-employee data. It'll iterate through dates for us and assign values at random.
-
-Each factory will have 10 machines and 110 employees. We'll simulate one year.
-
-@author: Nico
-"""
-
+#****************************************************************************
+# (C) Cloudera, Inc. 2020-2021
+#  All rights reserved.
+#
+#  Applicable Open Source License: GNU Affero General Public License v3.0
+#
+#  NOTE: Cloudera open source products are modular software products
+#  made up of hundreds of individual components, each of which was
+#  individually copyrighted.  Each Cloudera open source product is a
+#  collective work under U.S. Copyright Law. Your license to use the
+#  collective work is as provided in your written agreement with
+#  Cloudera.  Used apart from the collective work, this file is
+#  licensed for your use pursuant to the open source license
+#  identified above.
+#
+#  This code is provided to you pursuant a written agreement with
+#  (i) Cloudera, Inc. or (ii) a third-party authorized to distribute
+#  this code. If you do not have a written agreement with Cloudera nor
+#  with an authorized and properly licensed third party, you do not
+#  have any rights to access nor to use this code.
+#
+#  Absent a written agreement with Cloudera, Inc. (“Cloudera”) to the
+#  contrary, A) CLOUDERA PROVIDES THIS CODE TO YOU WITHOUT WARRANTIES OF ANY
+#  KIND; (B) CLOUDERA DISCLAIMS ANY AND ALL EXPRESS AND IMPLIED
+#  WARRANTIES WITH RESPECT TO THIS CODE, INCLUDING BUT NOT LIMITED TO
+#  IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY AND
+#  FITNESS FOR A PARTICULAR PURPOSE; (C) CLOUDERA IS NOT LIABLE TO YOU,
+#  AND WILL NOT DEFEND, INDEMNIFY, NOR HOLD YOU HARMLESS FOR ANY CLAIMS
+#  ARISING FROM OR RELATED TO THE CODE; AND (D)WITH RESPECT TO YOUR EXERCISE
+#  OF ANY RIGHTS GRANTED TO YOU FOR THE CODE, CLOUDERA IS NOT LIABLE FOR ANY
+#  DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE OR
+#  CONSEQUENTIAL DAMAGES INCLUDING, BUT NOT LIMITED TO, DAMAGES
+#  RELATED TO LOST REVENUE, LOST PROFITS, LOSS OF INCOME, LOSS OF
+#  BUSINESS ADVANTAGE OR UNAVAILABILITY, OR LOSS OR CORRUPTION OF
+#  DATA.
+#
+#  Source File Name: data_generator.py
+#  Description: Generate data we're going to use as mock factory and
+#               employee data. It'll iterate through dates for us and
+#               assign values at random. Each factory will have 10
+#               machines and 110 employees. We'll simulate one year.
+#  Author(s): Nicolas Pelaez, George Rueda de Leon
+#***************************************************************************/
 import datetime
 import util
 import pandas as pd
@@ -34,12 +65,12 @@ employee_sicktime_cols = ['factory_id','employee_id','sick','date']
 employee_metadata_cols = ['factory_id','employee_id','gender','email','occupation','birthdate','salary']
 
 
-#To make things interesting, we're going to make factory 2 and 4 different 
-#in both terms of abient conditions as well as employee throughput
+#To make things interesting, we're going to make factory 2 and 4 different
+#in both terms of ambient conditions as well as employee throughput
 
 #Factory 2 is going to be in Alaska (Much colder)
 #Factory 4 is going to be in Texas (Much hotter)
-        
+
 current_date = start_date
 faker = Faker()
 
