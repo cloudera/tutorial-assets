@@ -12,9 +12,9 @@ Cloudera Community is a great resource to connect with your peers and share/rece
 
 # How do I contribute code?
 You need to first sign and return an
-[ICLA](https://github.com/cloudera/tutorial-assets/blob/master/icla/Cloudera_ICLA_25APR2018.pdf)
+[ICLA](https://github.com/cloudera/tutorial-assets/blob/main/icla/Cloudera_ICLA_25APR2018.pdf)
 and
-[CCLA](https://github.com/cloudera/tutorial-assets/blob/master/icla/Cloudera_CCLA_25APR2018.pdf)
+[CCLA](https://github.com/cloudera/tutorial-assets/blob/main/icla/Cloudera_CCLA_25APR2018.pdf)
 before we can accept and redistribute your contribution. Once these are submitted you are
 free to start contributing to tutorial-assets. Submit these to CLA@cloudera.com.
 
