@@ -11,12 +11,12 @@ Assets provided in this repository are organized in folders named by tutorial ti
 Cloudera Community is a great resource to connect with your peers and share/receive solutions.
 
 # How do I contribute code?
-You need to first sign and return an
+You need to first sign and return 
 [ICLA](https://github.com/cloudera/tutorial-assets/blob/main/icla/Cloudera_ICLA_25APR2018.pdf)
-and
+or
 [CCLA](https://github.com/cloudera/tutorial-assets/blob/main/icla/Cloudera_CCLA_25APR2018.pdf)
 before we can accept and redistribute your contribution. Once these are submitted you are
-free to start contributing to tutorial-assets. Submit these to CLA@cloudera.com.
+free to start contributing to this repository. Submit form to CLA@cloudera.com.
 
 ## Main steps
 * Fork the repo and create a topic branch
