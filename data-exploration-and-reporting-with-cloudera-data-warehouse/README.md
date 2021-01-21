@@ -8,4 +8,4 @@ We will be looking at a synthetic data set for a mock company that has various h
 
 # Tutorial: [Step-by-Step Walk Through](https://www.cloudera.com/tutorials/data-exploration-and-reporting-with-cdw.html?utm_source=mktg-community&utm_medium=github)
 
-# Meetup (recording): [Demo](https://www.youtube.com/watch?v=0w7s5gjtOz0&ab_channel=Cloudera%2CInc.)
+# Meetup: [Event](https://www.meetup.com/futureofdata-nova/events/274702924/) / [Recording](https://www.youtube.com/watch?v=0w7s5gjtOz0)
