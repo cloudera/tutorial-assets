@@ -1,0 +1,102 @@
+{
+	"type": "record",
+	"namespace": "corvette.example",
+	"name": "corvette_schema",
+	"fields": [
+		{
+			"name": "Offset",
+			"doc": "Offset",
+			"type": "float"
+		},
+		{
+			"name": "IntakeManifoldAbsolutePressure",
+			"doc": "IntakeManifoldAbsolutePressure",
+			"type": "float"
+		},
+		{
+			"name": "ShortTermFuelTrimBank2",
+			"doc": "ShortTermFuelTrimBank2",
+			"type": "float"
+		},
+		{
+			"name": "ShortTermFuelTrimBank1",
+			"doc": "ShortTermFuelTrimBank1",
+			"type": "float"
+		},
+		{
+			"name": "FuelSystemStatus",
+			"doc": "FuelSystemStatus",
+			"type": "string"
+		},
+		{
+			"name": "MassAirflow",
+			"doc": "MassAirflow",
+			"type": "float"
+		},
+		{
+			"name": "O2VoltageB1S1",
+			"doc": "O2VoltageB1S1",
+			"type": "float"
+		},
+		{
+			"name": "O2VoltageB2S1",
+			"doc": "O2VoltageB2S1",
+			"type": "float"
+		},
+		{
+			"name": "TimingAdvance",
+			"doc": "TimingAdvance",
+			"type": "string"
+		},
+		{
+			"name": "EquivalenceRatioCommanded",
+			"doc": "EquivalenceRatioCommanded",
+			"type": "float"
+		},
+		{
+			"name": "EngineRPM",
+			"doc": "EngineRPM",
+			"type": "float"
+		},
+		{
+			"name": "CommandedThrottleActuator",
+			"doc": "CommandedThrottleActuator",
+			"type": "float"
+		},
+		{
+			"name": "ThrottlePosition",
+			"doc": "ThrottlePosition",
+			"type": "float"
+		},
+		{
+			"name": "AbsoluteLoad",
+			"doc": "AbsoluteLoad",
+			"type": "float"
+		},
+		{
+			"name": "MassAirflowSensor",
+			"doc": "MassAirflowSensor",
+			"type": "float"
+		},
+		{
+			"name": "VehicleSpeed",
+			"doc": "VehicleSpeed",
+			"type": "float"
+		},
+		{
+			"name": "IntakeAirTemp",
+			"doc": "IntakeAirTemp",
+			"type": "float"
+		},
+		{
+			"name": "EngineCoolantTemp",
+			"doc": "EngineCoolantTemp",
+			"type": "float"
+		},
+		{
+			"name": "Wideband02Sensor",
+			"doc": "Wideband02Sensor",
+			"type": "float"
+		}
+	]
+}
