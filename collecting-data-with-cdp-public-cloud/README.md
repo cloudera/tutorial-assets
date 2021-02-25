@@ -6,4 +6,4 @@ Data Lifecycle - collecting data. This tutorial will show you how to use Apache 
 
 # Tutorial: [Step-by-Step Walk Through](https://www.cloudera.com/tutorials/collecting-data-with-cdp-public-cloud.html?utm_source=mktg-community&utm_medium=github)
 
-# Meetup: [Event](https://www.meetup.com/futureofdata-nova/events/275839549/)
+# Meetup: [Event](https://www.meetup.com/futureofdata-nova/events/275839549/) / [Recording](https://youtu.be/RHFkCtbe3kc)
