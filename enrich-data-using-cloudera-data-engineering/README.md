@@ -8,4 +8,4 @@ Data Lifecycle - data enrichment. This tutorial will walk you through running a 
 # Tutorial: [Step-by-Step Walk Through](https://www.cloudera.com/tutorials/enrich-data-using-cloudera-data-engineering.html?utm_source=mktg-community&utm_medium=github)
 
 
-# Meetup: [Event](https://www.meetup.com/futureofdata-austin/events/276200809/)
+# Meetup: [Event](https://www.meetup.com/futureofdata-austin/events/276200809/) / [Recording](https://youtu.be/ZH0xRQU_P3k)
