@@ -6,4 +6,6 @@ Data Lifecycle - Predictive Analytics. Using synthetic datasets for an electric 
 
 # Tutorial: [Step-by-Step Walk Through](https://www.cloudera.com/tutorials/building-automated-ml-pipelines-in-cml.html?utm_source=mktg-community&utm_medium=github)
 
+# Blog: [Brief Discussion](https://blog.cloudera.com/next-stop-predicting-on-data-with-cloudera-machine-learning/)
+
 # Meetup: [Event](https://www.meetup.com/futureofdata-austin/events/277436353/)
