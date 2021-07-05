@@ -8,4 +8,4 @@ Data Lifecycle - Predictive Analytics. Using synthetic datasets for an electric 
 
 # Blog: [Brief Discussion](https://blog.cloudera.com/next-stop-predicting-on-data-with-cloudera-machine-learning/)
 
-# Meetup: [Event](https://www.meetup.com/futureofdata-austin/events/277436353/)
+# Meetup: [Event](https://www.meetup.com/futureofdata-austin/events/277436353/) / [Recording](https://youtu.be/aFhQIOpF4Cw)
