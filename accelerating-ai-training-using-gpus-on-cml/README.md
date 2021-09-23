@@ -6,4 +6,4 @@ Experience the benefits of having access to a hybrid cloud solution. Using Cloud
 
 # Tutorial: [Step-by-Step Walk Through](https://www.cloudera.com/tutorials/accelerating-ai-training-using-gpus-on-cml.html?utm_source=mktg-community&utm_medium=github)
 
-# Meetup: [Event](https://www.meetup.com/futureofdata-nova/events/279960459/)
+# Meetup: [Event](https://www.meetup.com/futureofdata-nova/events/279960459/) / [Recording](https://youtu.be/kIeVpsz12IE)
