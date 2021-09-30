@@ -1,3 +1,7 @@
+<p align="center"><a href="https://www.cloudera.com/users.html">
+  <img src="/images/cldr_corp_logo_color_rgb_101.png" width="400">
+</a></p>
+
 # Tutorial Assets
 
 [Cloudera](https://www.cloudera.com/) offers you a library of [tutorials](https://www.cloudera.com/tutorials.html?utm_source=mktg-community&utm_medium=github) that will optimize your time in learning Cloudera products.
