@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="George Rueda de Leon">
+        <meta name="description" content="Electric Car Company Inventory Request">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ECC Inventory App</title>
+    </head>
+    <body>
+
+        <div style="font-family:'Times New Roman', Times, serif; ">
+            <h1 style="text-align: center;color: white; background-color: black;">Electric Car Company Part Request</h1>
+            <div style="text-align: center;"><div>
+                <form action="/requestparts" method="POST">
+                    <div style="">
+                        <p style="color:grey">Part Number<br><br> <input style="text-align: center;border:none; outline: none;border-bottom: 1px solid black" type="text" name="part_requested" value=""></p>
+                        <p style="color:grey">Quantity<br><br> <input style="text-align: center;border:none; outline: none;border-bottom: 1px solid black"  type="number" name="amount_requested" value=""></p>
+                        <input style="color:white; background-color:turquoise" type="submit" value="Request Part" >
+                    </div>
+
+                    {% if message|length >=1 %}
+                        <div style="color: black;background-color: red;">
+                            <p>{{ message }}</p>
+                        </div>
+                    {% endif %}
+                <div style="font-family:'Comic Sans'">
+                    <h2>Current Inventory</h2>
+                    {% if partlist|length >= 1 %}
+                        <pre> {{ partlist|join('\n')}} </pre>
+                    {% else %}
+                        <p>No entries found</p>
+                    {% endif %}
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>
