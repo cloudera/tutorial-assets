@@ -1,0 +1,6 @@
+[COD]
+Username=<cdp_workload_username>
+Password=<cdp_workload_password>
+Url=<URL from Phoenix Thin JDBC connection>
+Serialization=PROTOBUF
+Authentication=BASIC
