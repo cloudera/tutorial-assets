@@ -71,8 +71,7 @@ def process_image(rdd_image):
     try:
         dicom_conversion_result = "SUCCESS"
         ds = pydicom.dcmread(image_bytes, force=True)
-        data = apply_voi_lut(ds.pixel_array, ds)
-        data = np.amax(data) - data
+        data = ds.pixel_array
         data = data - np.min(data)
         data = (data * 255).astype(np.uint8)
     except InvalidDicomError as err:
@@ -85,6 +84,7 @@ def process_image(rdd_image):
         width_px = len(data[0])
         PIL.Image.frombytes("L", (height_px, width_px), data).resize((IMG_PX_SIZE, IMG_PX_SIZE)).save(
             png_image, 'png')
+
     except OSError:
         image_conversion_result = "FAIL"
     except IndexError:
@@ -101,7 +101,8 @@ def write_processed_image(rdd_image):
     png_image = rdd_image['content']
     scan_type = os.path.split(os.path.split(rdd_image['path'])[0])[1]
     patient_dir = os.path.split(os.path.split(os.path.split(rdd_image['path'])[0])[0])[1]
-    output_key = OUTPUT_PATH + '/' + patient_dir + '/' + scan_type + '/' + os.path.basename(rdd_image['path']) + '.png'
+    filename = OUTPUT_PATH + '/' + patient_dir + '/' + scan_type + '/' + os.path.basename(rdd_image['path']) 
+    output_key = filename[:len(filename) - 4] + '.png'
     try:
         s3 = boto3.resource('s3')
         put_result = "SUCCESS"
